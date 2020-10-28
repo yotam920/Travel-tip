@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTip</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>TravelTip</h1>
+        <div class="controls">
+            <input type="text" class="location-input" name="location-input" placeholder="Where To?">
+            <button class="btn go-to">Go!</button>
+            <button class="btn my-location">My Location</button>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="location-details">
+            <h2 class="location-title"></h2>
+            <button class="btn location-copy">Copy Location</button>
+        </div>
+
+        <div class="map-container">
+            <div class="weather-table-container">
+                <div class="weather"></div>
+                <div class="location-table">
+                    <span class="delete-btn"></span>
+                </div>
+            </div>
+            <div id="map"></div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        CoffeeRights Yotam And Tal 2020
+    </footer>
+    <script src="lib/axios.js"></script>
+    <script type="module" src="js/mapController.js"></script>
+</body>
+
+</html>

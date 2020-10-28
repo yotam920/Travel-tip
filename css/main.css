@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightsalmon;
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    text-align: center;
+}
+
+.map-container {
+    display: flex;
+    background-color: lightsalmon;
+}
+
+.map-container>* {
+    margin: 10px;
+}
+
+.weather {
+    flex-basis: 50%;
+    background-color: rgb(204, 233, 204);
+    border: solid 2px rgb(113, 192, 113);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.location-table {
+    flex-basis: 50%;
+    background-color: rgb(170, 214, 231);
+    border: solid 2px rgb(66, 184, 231);
+}
+
+.weather-table-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+#map {
+    flex-basis: 70%;
+    width: 500px;
+    height: 500px;
+}
+
+.btn {
+    background-color: rgb(145, 160, 175);
+    color: whitesmoke;
+}
